@@ -1,5 +1,7 @@
 package object
 
+import "encoding/json"
+
 type SysConfig struct {
 	Total total `toml:"total"`
 }
